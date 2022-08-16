@@ -1,0 +1,90 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color: #4F2426;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 36px;
+    color: #4F2426;
+}
+
+button {
+    align-self: flex-start;
+    margin: auto 0px auto auto;
+    padding: 5px 10px;
+    white-space: nowrap;
+
+    font-size: 36px;
+    color: #4F2426;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-color: transparent;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1800px;
+}
+    
+.navi {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navi img {
+    height: 100px;
+    width: auto;
+}
+
+.navi ul {
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+}
+    
+.carousel {
+    background-image: url("./images/soundtrack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 30%;
+
+    display: flex;
+    flex: 0 1 auto;
+    max-width: 1800px;
+    padding: 20px;
+}
+
+.car-text {
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 5px;
+    margin: 5px 200px 5px 5px;
+}
+
+.carousel h1 {
+    font-size: 36px;
+    margin: 5px 0px;
+    color: #4F2426;
+}
+
+.carousel p {
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
